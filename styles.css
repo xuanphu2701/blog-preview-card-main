@@ -22,13 +22,13 @@
     font-size: 13px;
 }
 
-#root {
+main {
     height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F4CE45;
+    background-color: #f4ce45;
 }
 
 .card {
@@ -38,7 +38,7 @@
     height: fit-content;
     width: calc(320px + 2 * 16px);
     border-radius: 16px;
-    border: 1px solid #1C1300;
+    border: 1px solid #1c1300;
     box-shadow: 6px 6px #000;
     padding: var(--card-padding);
     background-color: #fff;
@@ -52,9 +52,9 @@
 }
 
 .status {
-    background-color: #F4CE45;
+    background-color: #f4ce45;
     font-family: Figtree-extrabold;
-    width:fit-content;
+    width: fit-content;
     padding: 8px 12px;
     border-radius: 4px;
     margin-bottom: 12px;
@@ -93,4 +93,3 @@
     font-size: 12px;
     padding-left: 8px;
 }
-
